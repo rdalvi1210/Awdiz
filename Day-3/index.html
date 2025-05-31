@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Hobbies</title>
+
+    <!-- ----------  Basic Styling  ---------- -->
+    <style>
+      /* Page layout */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+        background: #f9f9f9;
+        color: #333;
+      }
+
+      h2 {
+        margin-top: 2rem;
+        color: #004981;
+        border-bottom: 2px solid #00498120;
+        padding-bottom: 0.3rem;
+      }
+
+      /* Lists */
+      ul,
+      ol {
+        margin-left: 1.5rem;
+      }
+      ul ul,
+      ol ul {
+        /* nested list spacing */
+        margin-top: 0.3rem;
+      }
+
+      /* Links */
+      a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      a:hover,
+      a:focus {
+        text-decoration: underline;
+      }
+
+      /* Images */
+      .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .image-gallery img {
+        display: block;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ----------  Hobbies  ---------- -->
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Reading</li>
+      <li>Playing Chess</li>
+      <li>Prograamming</li>
+    </ul>
+
+    <!-- ----------  Daily Tasks  ---------- -->
+    <h2>My Daily Tasks</h2>
+    <ol>
+      <li>Wake up and exercise</li>
+      <li>Attend classes or work</li>
+      <li>Study and work on projects</li>
+      <li>Relax and sleep</li>
+    </ol>
+
+    <!-- ----------  Nested Interests  ---------- -->
+    <h2>My Interests</h2>
+    <ul>
+      <li>
+        Sports
+        <ul>
+          <li>Cricket</li>
+          <li>Football</li>
+        </ul>
+      </li>
+      <li>
+        Music
+        <ul>
+          <li>Classical</li>
+          <li>Rock</li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- ----------  Links  ---------- -->
+    <h2>Useful Links</h2>
+    <p>
+      <a href="https://www.google.com" target="_blank" rel="noopener"
+        >Visit Google (opens in new tab)</a
+      ><br />
+      <a href="https://developer.mozilla.org/en-US/">Visit MDN Web Docs</a>
+    </p>
+
+    <!-- ----------  Images  ---------- -->
+    <h2>Images</h2>
+    <div class="image-gallery">
+      <img
+        src="https://tse2.mm.bing.net/th?id=OIP.xz_8e9yorWLaMV_glMwyTgHaFj&pid=Api&P=0&h=180"
+        alt="A serene nature scene"
+        width="150"
+      />
+      <img
+        src="https://wallpapers.com/images/hd/coding-background-9izlympnd0ovmpli.jpg"
+        alt="Abstract coding background"
+        width="300"
+      />
+    </div>
+  </body>
+</html>
